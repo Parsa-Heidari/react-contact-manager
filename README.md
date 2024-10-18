@@ -6,4 +6,5 @@ features :
 2. removing contacts
 3. editing the existing contacts
 4. viewing contacts
+5. searching for contacts
 
