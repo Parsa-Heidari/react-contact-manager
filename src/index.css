@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  text-transform: capitalize;
+  transition: .35s all;
+}
+
+button {
+  text-transform: capitalize;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--black);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.t-black {
+  color: #09080D;
+}
+
+.b-black {
+  background-color: #09080D;
+}
+
+.t-purple {
+  color: #4528DC;
+}
+
+.b-purple {
+  background-color: #4528DC;
+}
+
+.t-white {
+  color: #F9F9F9;
+}
+
+.b-white {
+  background-color: #F9F9F9;
+}
+
+.t-brown {
+  color: #16151A;
+}
+
+.b-brown {
+  background-color: #16151A;
+}
+
+:root {
+  --black: #09080D;
+  --purple: #4528DC;
+  --white: #F9F9F9;
+  --brown: #16151A;
+}
+
+.con {
+  max-width: 1280px !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.contacts {
+  margin-top: 5rem;
+  padding: 10vh 0;
+}
+
+.contact {
+  height: 27rem;
+}
+
+.contact figure {
+  height: 14rem;
+}
+
+.add {
+  height: calc(100vh - 5rem);
+  padding: 10vh 0;
+  margin-top: 5rem;
+}
+
+.add input::-webkit-outer-spin-button,
+.add input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.update {
+  height: calc(100vh - 5rem);
+  padding: 10vh 0;
+  margin-top: 5rem;
+}
+
+.view {
+  height: calc(100vh - 5rem);
+  padding: 10vh 0;
+  margin-top: 5rem;
+}
+
+
+
+
+@media all and (max-width: 1280px) {
+  .con {
+    max-width: 1024px !important;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .con {
+    max-width: 768px !important;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .con {
+    max-width: 640px !important;
+  }
+}
+
+@media all and (max-width: 640px) {
+  .con {
+    max-width: 96% !important;
+  }
+}
